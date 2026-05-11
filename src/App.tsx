@@ -388,9 +388,9 @@ export default function App() {
         >
           <div className="bg-white rounded-[60px] shadow-2xl overflow-hidden border border-amber-100 flex flex-col lg:flex-row">
             {/* Info Side */}
-            <div className="lg:w-1/3 p-12 lg:p-16 space-y-12">
+            <div className="lg:w-1/3 p-8 sm:p-12 lg:p-16 space-y-12">
               <div>
-                <h2 className="text-4xl text-gray-900 mb-6 font-serif underline decoration-amber-200 underline-offset-8">Gdzie jesteśmy?</h2>
+                <h2 className="text-3xl sm:text-4xl text-gray-900 mb-6 font-serif underline decoration-amber-200 underline-offset-8">Gdzie jesteśmy?</h2>
                 <div className="space-y-6">
                   <div className="flex gap-4">
                     <div className="w-12 h-12 bg-amber-50 rounded-2xl flex-shrink-0 flex items-center justify-center text-amber-600">
@@ -441,7 +441,7 @@ export default function App() {
             </div>
 
             {/* Map Side */}
-            <div className="flex-1 min-h-[400px]">
+            <div className="flex-1 h-[300px] sm:h-[450px] lg:h-auto min-h-[300px]">
               <iframe 
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2567.989253099557!2d19.0119761770082!3d49.936542924232334!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4716a3525caf0445%3A0x9821f83da0a0c9b8!2sG%C3%B3rnicza%2054%2C%2043-502%20Czechowice-Dziedzice!5e0!3m2!1spl!2spl!4v1778511883505!5m2!1spl!2spl" 
                 className="w-full h-full border-0"
